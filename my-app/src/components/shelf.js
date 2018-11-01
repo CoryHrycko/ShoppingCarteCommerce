@@ -6,7 +6,7 @@ class Shelf extends Component {
         this.onClickAdd = this.onClickAdd.bind(this);
         this.state = {
             shelfItems: [
-                'Website Development' ,
+                'Website Development ' +<img src="" />,
                 'Programing',
                 'SEO'
                 
