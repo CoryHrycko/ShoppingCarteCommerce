@@ -7,4 +7,10 @@
   background: url("./ian-keefe.jpg") center no-repeat;
   background-size: cover;
 }
+
+.App-intro {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+}
 /*# sourceMappingURL=my.css.map */
