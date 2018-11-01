@@ -1,7 +1,7 @@
 import cart from './cart.js';
-import {combinReducers } from 'redux';
+import {combineReducers } from 'redux';
 
-const rootReducer = combinReducers({
+const rootReducer = combineReducers({
     cart
 });
 
