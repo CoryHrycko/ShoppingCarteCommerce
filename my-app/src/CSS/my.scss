@@ -8,6 +8,15 @@
 }
 .App-intro{
     height:100vh;
-    display:grid;
-    
+    background-color:grayscale($color: #000000);
+}
+.orders{
+    display: grid;
+    text-decoration: none;
+    list-style: none;
+    grid-template-rows: 3rem;
+    grid-gap: 2rem;
+}
+.orders li{
+    padding: 1em;
 }

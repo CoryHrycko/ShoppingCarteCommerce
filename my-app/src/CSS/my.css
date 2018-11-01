@@ -10,7 +10,20 @@
 
 .App-intro {
   height: 100vh;
+  background-color: whitesmoke;
+}
+
+.orders {
   display: -ms-grid;
   display: grid;
+  text-decoration: none;
+  list-style: none;
+  -ms-grid-rows: 3rem;
+      grid-template-rows: 3rem;
+  grid-gap: 2rem;
+}
+
+.orders li {
+  padding: 1em;
 }
 /*# sourceMappingURL=my.css.map */
