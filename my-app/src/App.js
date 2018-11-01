@@ -13,7 +13,6 @@ class App extends Component {
          <h2>Welcome</h2>
          </div>
         <div className="App-intro">
-           To get started blah blah blah
            <Cart />
         </div>
       </div>
