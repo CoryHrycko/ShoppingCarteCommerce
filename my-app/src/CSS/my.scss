@@ -1,7 +1,27 @@
+//reset
 *{
     margin: 0;
     padding: 0;
 }
+//---------------------varibles
+$Pcolor: hsl(72, 100%, 97%)	;
+
+$Scolor: hsl(15, 17%, 59%);
+
+$Tcolor: hsl(35, 73%, 26%);
+
+$Fcolor: hsl(19, 80%, 30%)	;
+
+$Calert: hsl(355, 77%, 52%);
+
+$Ccaution:hsl(240, 100%, 31%);
+
+$Cdanger:hsl(34, 100%, 54%);
+
+$Csucess:hsl(104, 73%, 29%);
+
+
+//---------------------Header
 .App-header{
     background: url('./ian-keefe.jpg') center no-repeat;
     background-size: cover;
