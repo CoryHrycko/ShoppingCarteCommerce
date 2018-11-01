@@ -10,7 +10,7 @@
 
 .App-intro {
   height: 100vh;
-  background-color: whitesmoke;
+  background: #a88e85;
 }
 
 .orders {
@@ -25,5 +25,30 @@
 
 .orders li {
   padding: 1em;
+  padding: 3px;
+  border-radius: 1px;
+  color: rgba(107, 54, 62, 0.9);
+  background-color: rgba(107, 54, 62, 0.1);
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  background-size: 100% 200%;
+  background-position: 0 -100%;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, transparent), color-stop(50%, rgba(107, 54, 62, 0.9)));
+  background-image: linear-gradient(to top, transparent 50%, rgba(107, 54, 62, 0.9) 50%);
+}
+
+.orders li:hover {
+  opacity: .8;
+  color: #fff;
+  background-position: 0 0;
+}
+
+.mainCart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  background: #a88e85;
+  border: solid black 1px;
 }
 /*# sourceMappingURL=my.css.map */

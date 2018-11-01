@@ -20,11 +20,12 @@ class Cart extends Component {
     return (
       <div className="Cart">
         <Shelf addItem={this.props.action.addToCart} />
+        <div className='mainCart'>
         <h2> Cart Items</h2>
         <ol>
           {CartItems}
         </ol>
-      </div>
+      </div></div>
     );
   }
 }
