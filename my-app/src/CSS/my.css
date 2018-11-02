@@ -26,15 +26,23 @@
   text-decoration: none;
   list-style: none;
   grid-auto-rows: 40px;
+  -ms-grid-columns: 40px 1fr 1fr 1fr 40px;
+      grid-template-columns: 40px 1fr 1fr 1fr 40px;
   grid-gap: 2rem;
+  text-align: left;
 }
 
 .App-intro .itemsShelf .orders .button {
   background-color: #318014;
+  position: absolute;
+  right: 0%;
   border: none;
-  color: white;
-  padding: 16px 32px;
+  color: #fafafa;
+  padding: 8px 8px;
   text-align: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
@@ -46,18 +54,22 @@
 }
 
 .App-intro .itemsShelf .orders .button1 {
-  background-color: white;
-  color: black;
+  background-color: #fafafa;
+  color: #8b8989;
   border: 2px solid #318014;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
 }
 
 .App-intro .itemsShelf .orders .button1:hover {
   background-color: #318014;
-  color: white;
+  color: #fafafa;
 }
 
 .App-intro .itemsShelf .orders li {
   padding: 1em;
+  position: relative;
   padding: 3px;
   border-radius: 1px;
   color: rgba(107, 54, 62, 0.9);
@@ -68,6 +80,7 @@
   background-position: 0 -100%;
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, transparent), color-stop(50%, #a88e85));
   background-image: linear-gradient(to top, transparent 50%, #a88e85 50%);
+  grid-column: 2/3 span;
 }
 
 .App-intro .itemsShelf .orders li:hover {
@@ -82,7 +95,7 @@
   display: flex;
   position: relative;
   background: #a88e85;
-  border: solid black 1px;
+  border: solid #8b8989 1px;
   list-style: none;
 }
 /*# sourceMappingURL=my.css.map */
