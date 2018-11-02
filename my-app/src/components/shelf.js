@@ -6,8 +6,8 @@ class Shelf extends Component {
         this.onClickAdd = this.onClickAdd.bind(this);
         this.state = {
             shelfItems: [
-                'Website Development ' +<img src="" />,
-                'Programing',
+                'Website Development ',
+                'Programing' + " " + 20.00 + "\/hr",
                 'SEO'
                 
             ]
@@ -23,7 +23,7 @@ render() {
         return <li key={idx}><button onClick={()=>this.onClickAdd(item)}>{item}</button></li>
     }); 
     return (
-        <div>
+        <div className= "itemsShelf">
             <h2>Shelf</h2>
             <ul className='orders'>
                 {shelfItems}

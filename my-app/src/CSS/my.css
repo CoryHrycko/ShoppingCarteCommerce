@@ -8,22 +8,28 @@
   background-size: cover;
 }
 
+.App-header .title {
+  font-size: 4rem;
+  margin-bottom: 5rem;
+  line-height: 1.5rem;
+}
+
 .App-intro {
   height: 100vh;
   background: #a88e85;
 }
 
-.orders {
+.App-intro .itemsShelf .orders {
   display: -ms-grid;
   display: grid;
+  height: 100vh;
   text-decoration: none;
   list-style: none;
-  -ms-grid-rows: 3rem;
-      grid-template-rows: 3rem;
+  grid-auto-rows: 40px;
   grid-gap: 2rem;
 }
 
-.orders li {
+.App-intro .itemsShelf .orders li {
   padding: 1em;
   padding: 3px;
   border-radius: 1px;
@@ -37,7 +43,7 @@
   background-image: linear-gradient(to top, transparent 50%, rgba(107, 54, 62, 0.9) 50%);
 }
 
-.orders li:hover {
+.App-intro .itemsShelf .orders li:hover {
   opacity: .8;
   color: #fff;
   background-position: 0 0;
@@ -50,5 +56,6 @@
   position: relative;
   background: #a88e85;
   border: solid black 1px;
+  list-style: none;
 }
 /*# sourceMappingURL=my.css.map */
