@@ -38,21 +38,20 @@ $Csucess:hsl(104, 73%, 29%);
     }
 }
 .App-intro{
-    height:100vh;
     background: $P2color;
-
+    grid-auto-rows: 40px;
+    grid-template-columns: 40px 1fr 1fr 1fr 40px;
+    grid-gap: 2rem;
     .itemsShelf {
 
     
         .orders { 
             display: grid;
-            height: 100vh;
             text-decoration: none;
             list-style: none;
-            grid-auto-rows: 40px;
-            grid-template-columns: 40px 1fr 1fr 1fr 40px;
-            grid-gap: 2rem;
             text-align: left;
+            grid-auto-rows: 40px;
+            grid-gap: 2rem;
 
             .button {
                 background-color: $Csucess;
@@ -105,11 +104,21 @@ $Csucess:hsl(104, 73%, 29%);
     }
 }
 .mainCart {
-    display:flex;
-    height:100vh;
-    position: absolute;   
+    display: grid;
     background: $Scolor;
     border: solid $G1color 1px;
     list-style: none;
+    grid-template-columns: 40px 1fr 1fr 1fr 40px;
+    text-decoration: none;
 
+
+    ol {
+        text-decoration: none;
+        grid-column: 3/4;
+        li{
+            left: 0%;
+            text-decoration: none;
+        }
+
+    }
 }

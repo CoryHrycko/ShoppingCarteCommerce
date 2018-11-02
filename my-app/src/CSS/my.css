@@ -15,21 +15,21 @@
 }
 
 .App-intro {
-  height: 100vh;
   background: #fafafa;
+  grid-auto-rows: 40px;
+  -ms-grid-columns: 40px 1fr 1fr 1fr 40px;
+      grid-template-columns: 40px 1fr 1fr 1fr 40px;
+  grid-gap: 2rem;
 }
 
 .App-intro .itemsShelf .orders {
   display: -ms-grid;
   display: grid;
-  height: 100vh;
   text-decoration: none;
   list-style: none;
-  grid-auto-rows: 40px;
-  -ms-grid-columns: 40px 1fr 1fr 1fr 40px;
-      grid-template-columns: 40px 1fr 1fr 1fr 40px;
-  grid-gap: 2rem;
   text-align: left;
+  grid-auto-rows: 40px;
+  grid-gap: 2rem;
 }
 
 .App-intro .itemsShelf .orders .button {
@@ -90,13 +90,25 @@
 }
 
 .mainCart {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100vh;
-  position: absolute;
+  display: -ms-grid;
+  display: grid;
   background: #a88e85;
   border: solid #8b8989 1px;
   list-style: none;
+  -ms-grid-columns: 40px 1fr 1fr 1fr 40px;
+      grid-template-columns: 40px 1fr 1fr 1fr 40px;
+  text-decoration: none;
+}
+
+.mainCart ol {
+  text-decoration: none;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+}
+
+.mainCart ol li {
+  left: 0%;
+  text-decoration: none;
 }
 /*# sourceMappingURL=my.css.map */
