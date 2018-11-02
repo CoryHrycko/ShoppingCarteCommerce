@@ -106,7 +106,8 @@ $Csucess:hsl(104, 73%, 29%);
 }
 .mainCart {
     display:flex;
-    position: relative;   
+    height:100vh;
+    position: absolute;   
     background: $Scolor;
     border: solid $G1color 1px;
     list-style: none;

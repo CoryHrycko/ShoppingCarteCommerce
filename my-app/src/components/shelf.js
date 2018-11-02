@@ -8,7 +8,9 @@ class Shelf extends Component {
             shelfItems: [
                 'Web Development ' + " " + 20.00 + "\/hr",
                 'Programing' + " " + 20.00 + "\/hr",
-                'SEO'+ " " + 20.00 + "\/hr"
+                'SEO'+ " " + 20.00 + "\/hr",
+                "Litterally any php can be placed here",
+                
                 
             ]
         }

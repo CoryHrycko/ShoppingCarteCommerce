@@ -93,7 +93,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
+  height: 100vh;
+  position: absolute;
   background: #a88e85;
   border: solid #8b8989 1px;
   list-style: none;
