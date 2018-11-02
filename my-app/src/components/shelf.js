@@ -6,7 +6,7 @@ class Shelf extends Component {
         this.onClickAdd = this.onClickAdd.bind(this);
         this.state = {
             shelfItems: [
-                'Website Development ' + " " + 20.00 + "\/hr",
+                'Web Development ' + " " + 20.00 + "\/hr",
                 'Programing' + " " + 20.00 + "\/hr",
                 'SEO'+ " " + 20.00 + "\/hr"
                 
@@ -24,7 +24,7 @@ render() {
     }); 
     return (
         <div className= "itemsShelf">
-            <h2>Shelf</h2>
+            <h2>Services</h2>
             <ul className='orders'>
                 {shelfItems}
             </ul>
