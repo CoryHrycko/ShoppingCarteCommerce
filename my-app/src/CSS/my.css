@@ -16,7 +16,7 @@
 
 .App-intro {
   height: 100vh;
-  background: #a88e85;
+  background: #fafafa;
 }
 
 .App-intro .itemsShelf .orders {
@@ -29,18 +29,45 @@
   grid-gap: 2rem;
 }
 
+.App-intro .itemsShelf .orders .button {
+  background-color: #318014;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.App-intro .itemsShelf .orders .button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #318014;
+}
+
+.App-intro .itemsShelf .orders .button1:hover {
+  background-color: #318014;
+  color: white;
+}
+
 .App-intro .itemsShelf .orders li {
   padding: 1em;
   padding: 3px;
   border-radius: 1px;
   color: rgba(107, 54, 62, 0.9);
-  background-color: rgba(107, 54, 62, 0.1);
+  background-color: #f0f0f0;
   -webkit-transition: all 0.15s ease;
   transition: all 0.15s ease;
   background-size: 100% 200%;
   background-position: 0 -100%;
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, transparent), color-stop(50%, #00009e));
-  background-image: linear-gradient(to top, transparent 50%, #00009e 50%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, transparent), color-stop(50%, #a88e85));
+  background-image: linear-gradient(to top, transparent 50%, #a88e85 50%);
 }
 
 .App-intro .itemsShelf .orders li:hover {

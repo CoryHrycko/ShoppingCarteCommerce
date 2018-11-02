@@ -6,6 +6,10 @@
 //---------------------varibles
 $Pcolor: hsl(72, 100%, 97%)	;
 
+$P2color:	hsl(0, 0%, 98%);
+
+$P3color: hsl(0, 0%, 94%);
+
 $Scolor: hsl(15, 17%, 59%);
 
 $Tcolor: hsl(35, 73%, 26%);
@@ -33,7 +37,7 @@ $Csucess:hsl(104, 73%, 29%);
 }
 .App-intro{
     height:100vh;
-    background: $Scolor;
+    background: $P2color;
 
     .itemsShelf {
 
@@ -45,18 +49,43 @@ $Csucess:hsl(104, 73%, 29%);
             list-style: none;
             grid-auto-rows: 40px;
             grid-gap: 2rem;
+
+            .button {
+                background-color: $Csucess;
+                border: none;
+                color: white;
+                padding: 16px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                -webkit-transition-duration: 0.4s; /* Safari */
+                transition-duration: 0.4s;
+                cursor: pointer;
+            }
+            .button1 {
+                background-color: white; 
+                color: black; 
+                border: 2px solid $Csucess;
+            }
+            
+            .button1:hover {
+                background-color: $Csucess;
+                color: white;
+            }
                 li{
                 padding: 1em;
                 padding: 3px; 
                 border-radius: 1px; 
                 color: rgba(107,54,62,0.9); 
-                background-color: rgba(107,54,62,0.1);
+                background-color: $P3color;
                 -webkit-transition: all 0.15s ease; 
                 -moz-transition: all 0.15s ease; 
                 transition: all 0.15s ease;
                 background-size: 100% 200%; 
                 background-position: 0 -100%; 
-                background-image: linear-gradient(to top, transparent 50%, $Ccaution 50%);
+                background-image: linear-gradient(to top, transparent 50%, $Scolor 50%);
 
                 }
                 li:hover{

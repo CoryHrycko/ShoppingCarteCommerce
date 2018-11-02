@@ -20,7 +20,7 @@ onClickAdd(item){
 
 render() {
     const shelfItems = this.state.shelfItems.map((item,idx)=>{
-        return <li key={idx}><button onClick={()=>this.onClickAdd(item)}>Add Service</button> {item}</li>
+        return <li key={idx}><button className="button button1" onClick={()=>this.onClickAdd(item)}>Add Service</button> {item}</li>
     }); 
     return (
         <div className= "itemsShelf">
