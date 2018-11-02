@@ -110,14 +110,16 @@ $Csucess:hsl(104, 73%, 29%);
     list-style: none;
     grid-template-columns: 40px 1fr 1fr 1fr 40px;
     text-decoration: none;
+    list-style-type:none;
 
-
-    ol {
+    ul {
         text-decoration: none;
         grid-column: 3/4;
+        list-style-type:none;
         li{
             left: 0%;
             text-decoration: none;
+            list-style-type: none;
         }
 
     }

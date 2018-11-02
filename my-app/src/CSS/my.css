@@ -98,17 +98,20 @@
   -ms-grid-columns: 40px 1fr 1fr 1fr 40px;
       grid-template-columns: 40px 1fr 1fr 1fr 40px;
   text-decoration: none;
+  list-style-type: none;
 }
 
-.mainCart ol {
+.mainCart ul {
   text-decoration: none;
   -ms-grid-column: 3;
   -ms-grid-column-span: 1;
   grid-column: 3/4;
+  list-style-type: none;
 }
 
-.mainCart ol li {
+.mainCart ul li {
   left: 0%;
   text-decoration: none;
+  list-style-type: none;
 }
 /*# sourceMappingURL=my.css.map */
