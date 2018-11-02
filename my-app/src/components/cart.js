@@ -22,9 +22,9 @@ class Cart extends Component {
         <Shelf addItem={this.props.action.addToCart} />
         <div className='mainCart'>
         <h2> Services Rendered</h2>
-        <ol>
+        <ul>
           {CartItems}
-        </ol>
+        </ul>
       </div></div>
     );
   }
