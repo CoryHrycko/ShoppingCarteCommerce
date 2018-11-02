@@ -39,8 +39,8 @@
   transition: all 0.15s ease;
   background-size: 100% 200%;
   background-position: 0 -100%;
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, transparent), color-stop(50%, rgba(107, 54, 62, 0.9)));
-  background-image: linear-gradient(to top, transparent 50%, rgba(107, 54, 62, 0.9) 50%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, transparent), color-stop(50%, #00009e));
+  background-image: linear-gradient(to top, transparent 50%, #00009e 50%);
 }
 
 .App-intro .itemsShelf .orders li:hover {

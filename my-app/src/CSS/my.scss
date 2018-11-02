@@ -56,7 +56,7 @@ $Csucess:hsl(104, 73%, 29%);
                 transition: all 0.15s ease;
                 background-size: 100% 200%; 
                 background-position: 0 -100%; 
-                background-image: linear-gradient(to top, transparent 50%, rgba(107,54,62,0.9) 50%);
+                background-image: linear-gradient(to top, transparent 50%, $Ccaution 50%);
 
                 }
                 li:hover{
