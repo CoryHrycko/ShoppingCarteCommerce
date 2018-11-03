@@ -5,6 +5,13 @@ import Cart from './components/cart';
 
 class App extends Component {
   render() {
+
+    let backdrop;
+
+    if (this.state.sideDrawerOpen){
+      backdrop = <Backdrop click={this.backdropClickHandler}/>
+    }
+
     return (
       <div className="App">
         <div className="App-header">
