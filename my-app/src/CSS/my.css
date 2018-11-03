@@ -88,7 +88,7 @@
 
 .App-intro .itemsShelf .orders li:hover {
   opacity: .8;
-  color: #fff;
+  color: #fafafa;
   background-position: 0 0;
 }
 
@@ -190,14 +190,14 @@
 }
 
 .sideDrawer a {
-  -webkit-columns: #552211;
-          columns: #552211;
+  -webkit-columns: #fafafa;
+          columns: #fafafa;
   text-decoration: none;
 }
 
 .sideDrawer a:hover,
 .sideDrawer a:active {
-  color: #fa923f;
+  color: #734a12;
 }
 
 @media (min-width: 4000px) {
@@ -211,7 +211,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background: #521751;
+  background: rgba(0, 0, 0, 0.3);
   height: 3em;
   z-index: 150;
 }
@@ -228,7 +228,9 @@
 }
 
 .toolBarLogo {
-  margin-left: 1rem;
+  position: absolute;
+  text-align: center;
+  right: 0%;
 }
 
 .toolBarLogo a {

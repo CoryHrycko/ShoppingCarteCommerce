@@ -99,7 +99,7 @@ $Csucess:hsl(104, 73%, 29%);
                 }
                 li:hover{
                     opacity: .8;
-                    color: #fff; 
+                    color: $P2color;
                     background-position: 0 0; 
                 }
         }
@@ -180,12 +180,12 @@ $Csucess:hsl(104, 73%, 29%);
 
 
 .sideDrawer a{
-    columns: #552211;
+    columns: $P2color;
     text-decoration: none;
 }
 .sideDrawer a:hover,
 .sideDrawer a:active{
-    color: #fa923f
+    color: $Tcolor;
 }
 @media (min-width: 4000px){
     .sideDrawer {
@@ -198,7 +198,7 @@ $Csucess:hsl(104, 73%, 29%);
     top:0;
     left: 0;
     width: 100%;
-    background: #521751;
+    background: rgba(0, 0, 0, 0.3);
     height: 3em;
     z-index: 150;
 }
@@ -209,7 +209,9 @@ $Csucess:hsl(104, 73%, 29%);
     padding: 0 1rem;
 }
 .toolBarLogo{
-    margin-left: 1rem;
+    position: absolute;
+    text-align: center;
+    right:0%;
 }
 .toolBarLogo a{
     color:white;
