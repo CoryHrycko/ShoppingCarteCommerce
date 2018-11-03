@@ -1,7 +1,9 @@
 import React from 'react';
-import Cart from '../../components/cart'
+import Cart from '../../components/cart';
+
 
 const sideDrawer = props => {
+
     let drawerClaseses = 'sideDrawer';
     if(props.show) {
         drawerClaseses ='sideDrawer open';
@@ -9,9 +11,11 @@ const sideDrawer = props => {
   return (
   <nav className={drawerClaseses}>
         <ul>
-            <Cart />
+            <Cart/>
         </ul>
     </nav>);
 };
+
+
 
 export default sideDrawer;
