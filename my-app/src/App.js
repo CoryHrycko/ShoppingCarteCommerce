@@ -2,11 +2,15 @@ import React, { Component } from 'react';
 import Backdrop from '../src/components/Backdrop/Backdrop';
 import Toolbar from '../src/containers/toolBar/toolBar';
 import SideDrawer from '../src/containers/sideDrawer/SideDrawer'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { fashoppingcart } from '@fortawesome/free-solid-svg-icons'
 
 import './App.css';
 
-
 import Cart from './components/cart';
+
+library.add(fashoppingcart)
 
 class App extends Component {
 

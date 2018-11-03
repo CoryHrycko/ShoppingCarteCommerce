@@ -1,10 +1,10 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 const drawerToggleButton = props => (
     <button className='toggleButton' onClick={props.click}>
-        <div className='toggleButtonLine'/>
-        <div className='toggleButtonLine'/>
-        <div className='toggleButtonLine'/>
+        Cart: <FontAwesomeIcon icon="fashoppingcart" />
     </button>
 );
 
