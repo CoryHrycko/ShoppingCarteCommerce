@@ -1,4 +1,5 @@
 import React from 'react';
+import Cart from '../../components/cart'
 
 const sideDrawer = props => {
     let drawerClaseses = 'sideDrawer';
@@ -8,8 +9,7 @@ const sideDrawer = props => {
   return (
   <nav className={drawerClaseses}>
         <ul>
-            <li><a href='/'>Stats</a></li>
-            <li><a href='/'>Placeholder</a></li>
+            <Cart />
         </ul>
     </nav>);
 };
