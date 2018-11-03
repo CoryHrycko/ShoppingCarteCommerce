@@ -46,6 +46,7 @@ backdropClickHandler=()=>{
 
           <div className="App-header">
           <h1 className= "title">White Snow</h1>
+          <h3 className= "subTitle">Design Studios</h3>
           </div>
           <div className="App-intro">
             <Cart />
