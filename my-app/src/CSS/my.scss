@@ -35,6 +35,7 @@ $Csucess:hsl(104, 73%, 29%);
         font-size:4rem;
         margin-bottom: 5rem;
         line-height: 1.5rem;
+        max-width: 290px;
     }
 }
 .App-intro{
@@ -51,6 +52,7 @@ $Csucess:hsl(104, 73%, 29%);
             list-style: none;
             text-align: left;
             grid-auto-rows: 40px;
+            grid-template-columns: 10px 1fr 1fr 1fr 10px;
             grid-gap: 2rem;
 
             .button {
@@ -185,7 +187,7 @@ $Csucess:hsl(104, 73%, 29%);
 .sideDrawer a:active{
     color: #fa923f
 }
-@media (min-width: 769px){
+@media (min-width: 4000px){
     .sideDrawer {
         display: none;
     }
@@ -237,7 +239,7 @@ $Csucess:hsl(104, 73%, 29%);
     color: #fa923f;
 }
 
-@media (max-width: 768px){
+@media (max-width: 4000px){
     .toolBarNavItems{
         display: none;
     }
@@ -260,7 +262,7 @@ $Csucess:hsl(104, 73%, 29%);
             height: 2em
         }
 }
-@media(min-width: 769px) {
+@media(min-width: 4000px) {
     .toolBarToggle{
         display:none;
     }
