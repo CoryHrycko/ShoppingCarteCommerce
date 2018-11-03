@@ -1,9 +1,29 @@
 import React, { Component } from 'react';
+import Backdrop from '../src/components/Backdrop/Backdrop';
 import './App.css';
+
 
 import Cart from './components/cart';
 
 class App extends Component {
+
+  state = {
+    sideDrawerOpen: false
+  };
+  drawerToggleClickHandler = () =>{
+    this.setState((prevState) =>{
+      return {sideDrawerOpen: !prevState.sideDrawerOpen};
+    });
+  };
+
+backdropClickHandler=()=>{
+  this.setState({sideDrawerOpen:false});
+};
+
+
+
+
+
   render() {
 
     let backdrop;
