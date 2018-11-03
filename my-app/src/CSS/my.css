@@ -308,4 +308,15 @@
   background: rgba(0, 0, 0, 0.3);
   z-index: 100;
 }
+
+.icon {
+  height: 6vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.icon svg {
+  height: 4vh;
+}
 /*# sourceMappingURL=my.css.map */
