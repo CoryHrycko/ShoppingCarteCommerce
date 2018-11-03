@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import Backdrop from '../src/components/Backdrop/Backdrop';
+import Toolbar from '../src/containers/toolBar/toolBar';
+import SideDrawer from '../src/containers/sideDrawer/SideDrawer'
+
 import './App.css';
 
 
@@ -34,12 +37,16 @@ backdropClickHandler=()=>{
 
     return (
       <div className="App">
-        <div className="App-header">
-         <h1 className= "title">White Snow</h1>
-         </div>
-        <div className="App-intro">
-           <Cart />
-        </div>
+        <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
+          <SideDrawer show={this.state.sideDrawerOpen}/>
+          {backdrop}
+
+          <div className="App-header">
+          <h1 className= "title">White Snow</h1>
+          </div>
+          <div className="App-intro">
+            <Cart />
+          </div>
       </div>
     );
   }
