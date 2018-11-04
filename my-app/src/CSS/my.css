@@ -249,6 +249,29 @@
   grid-row: -1;
 }
 
+.sideDrawer.open .Cart .mainCart .purchase button {
+  background-color: #fafafa;
+  border: black solid 1px;
+  color: #8b8989;
+  padding: 8px 8px;
+  text-align: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+}
+
+.sideDrawer.open .Cart .mainCart .purchase button:hover {
+  background-color: #318014;
+  color: #fafafa;
+}
+
 .sideDrawer ul {
   height: 100%;
   list-style: none;

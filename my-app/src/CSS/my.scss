@@ -224,6 +224,24 @@ $Csucess:hsl(104, 73%, 29%);
                 display:relative;
                 grid-column: 2;
                 grid-row: -1;
+                button{
+                    background-color: $P2color;
+                    border: black solid 1px;
+                    color: $G1color;
+                    padding: 8px 8px;
+                    text-align: center;
+                    justify-content: start;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin: 4px 2px;
+                    -webkit-transition-duration: 0.4s; /* Safari */
+                    transition-duration: 0.4s;
+                }
+                button:hover {
+                    background-color: $Csucess;
+                    color: $P2color;
+                }
             }
             }
         }
