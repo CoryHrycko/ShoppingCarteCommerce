@@ -12,6 +12,7 @@ class Cart extends Component {
     }
   }
 
+
   render() {
     console.log(this.props);
     const CartItems = this.props.cart.map((item, idx)=>{
@@ -25,7 +26,7 @@ class Cart extends Component {
         <ul>
           {CartItems}
           <div className="purchase">
-            <button  type="button" onClick="<?php ?>">Purchase</button>
+            <button  type="button" onClick="clickAlert()">Purchase</button>
         </div>
         </ul>
       </div></div>
