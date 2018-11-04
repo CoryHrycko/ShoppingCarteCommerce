@@ -21,7 +21,7 @@ class Cart extends Component {
       <div className="Cart">
         <Shelf addItem={this.props.action.addToCart} />
         <div className='mainCart'>
-        <h2> Services Rendered</h2>
+        <div className="titleCart1"><h2> Services&nbsp;</h2></div> <div className="titleCart2"><h2> Rendered</h2></div>
         <ul>
           {CartItems}
         </ul>
