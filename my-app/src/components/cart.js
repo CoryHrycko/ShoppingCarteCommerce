@@ -26,7 +26,7 @@ class Cart extends Component {
         <ul>
           {CartItems}
           <div className="purchase">
-            <button  type="button" onClick="clickAlert()">Purchase</button>
+          <button onClick={() => {alert('THis is where php authentification goes to either: a-email a request form, or b-authenticate to go to paypal');}}>Purchase</button>
         </div>
         </ul>
       </div></div>
