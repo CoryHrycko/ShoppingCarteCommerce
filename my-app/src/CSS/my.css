@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Cormorant SC',serif;
+  font-size: 1.02rem;
 }
 
 .App-header {
@@ -17,8 +19,8 @@
 }
 
 .App-header .subTitle {
-  margin-top: -4em;
-  font-size: .9em;
+  margin-top: -4rem;
+  font-size: .9rem;
   font-family: 'Indie Flower', cursive;
 }
 
@@ -40,6 +42,7 @@
   -ms-grid-columns: 10px 1fr 1fr 1fr 10px;
       grid-template-columns: 10px 1fr 1fr 1fr 10px;
   grid-gap: 2rem;
+  padding: 1rem;
 }
 
 .App-intro .itemsShelf .orders .button {
@@ -116,6 +119,7 @@
   -ms-grid-column-span: 1;
   grid-column: 3/4;
   list-style-type: none;
+  padding: 1rem;
 }
 
 .mainCart ul li {
@@ -240,6 +244,7 @@
 .sideDrawer.open .Cart .mainCart ul li {
   grid-column: 2/-1;
   grid-row: auto;
+  padding: 1rem;
 }
 
 .sideDrawer.open .Cart .mainCart .purchase {
@@ -333,13 +338,15 @@
 .toolBarLogo {
   position: absolute;
   text-align: center;
-  right: 0%;
+  right: 3%;
+  word-spacing: -.2rem;
 }
 
 .toolBarLogo a {
   color: #fafafa;
   text-decoration: none;
   font-size: 2rem;
+  word-spacing: -.2rem;
 }
 
 .spacer {
@@ -380,7 +387,7 @@
 @media (max-width: 530px) and (min-width: 340px) {
   .toolBarLogo a {
     font-size: 4vw;
-    word-spacing: 1vw;
+    word-spacing: -.4vw;
     text-align: center;
   }
 }
