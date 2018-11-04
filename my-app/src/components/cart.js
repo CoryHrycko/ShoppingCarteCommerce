@@ -25,7 +25,7 @@ class Cart extends Component {
         <ul>
           {CartItems}
           <div className="purchase">
-            <button  type="button" onClick="">Purchase</button>
+            <button  type="button" onClick="<?php ?>">Purchase</button>
         </div>
         </ul>
       </div></div>

@@ -63,8 +63,6 @@ $Csucess:hsl(104, 73%, 29%);
             grid-auto-rows: 40px;
             grid-template-columns: 10px 1fr 1fr 1fr 10px;
             grid-gap: 2rem;
-            padding: 1rem;
-
             .button {
                 background-color: $Csucess;
                 position: absolute;
@@ -93,9 +91,7 @@ $Csucess:hsl(104, 73%, 29%);
                 color: $P2color;
             }
                 li{
-                padding: 1em;
                 position: relative;
-                padding: 3px; 
                 border-radius: 1px; 
                 color: $P3color(107,54,62,0.9); 
                 background-color: $P3color;
@@ -128,7 +124,6 @@ $Csucess:hsl(104, 73%, 29%);
         text-decoration: none;
         grid-column: 3/4;
         list-style-type:none;
-        padding: 1rem;
         li{
             left: 0%;
             text-decoration: none;
@@ -222,7 +217,6 @@ $Csucess:hsl(104, 73%, 29%);
             li{
                 grid-column: 2/-1;
                 grid-row: auto;
-                padding: 1rem;
             }
             }
             .purchase{

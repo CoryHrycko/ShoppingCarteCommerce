@@ -42,7 +42,6 @@
   -ms-grid-columns: 10px 1fr 1fr 1fr 10px;
       grid-template-columns: 10px 1fr 1fr 1fr 10px;
   grid-gap: 2rem;
-  padding: 1rem;
 }
 
 .App-intro .itemsShelf .orders .button {
@@ -81,9 +80,7 @@
 }
 
 .App-intro .itemsShelf .orders li {
-  padding: 1em;
   position: relative;
-  padding: 3px;
   border-radius: 1px;
   color: #f0f0f0 107, 54, 62, 0.9;
   background-color: #f0f0f0;
@@ -119,7 +116,6 @@
   -ms-grid-column-span: 1;
   grid-column: 3/4;
   list-style-type: none;
-  padding: 1rem;
 }
 
 .mainCart ul li {
@@ -244,7 +240,6 @@
 .sideDrawer.open .Cart .mainCart ul li {
   grid-column: 2/-1;
   grid-row: auto;
-  padding: 1rem;
 }
 
 .sideDrawer.open .Cart .mainCart .purchase {
