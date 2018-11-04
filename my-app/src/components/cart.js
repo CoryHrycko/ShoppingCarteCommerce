@@ -24,6 +24,9 @@ class Cart extends Component {
         <div className="titleCart1"><h2> Services&nbsp;</h2></div> <div className="titleCart2"><h2> Rendered</h2></div>
         <ul>
           {CartItems}
+          <div className="purchase">
+            <button  type="button" onClick="">Purchase</button>
+        </div>
         </ul>
       </div></div>
     );

@@ -12,11 +12,7 @@ const sideDrawer = props => {
   <nav className={drawerClaseses}>
         <ul>
             <Cart/>
- 
         </ul>
-       <div className="purchase">
-            <button  type="button" onClick="">Purchase</button>
-        </div>
     </nav>);
 };
 
