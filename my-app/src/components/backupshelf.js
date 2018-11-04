@@ -32,7 +32,7 @@ render() {
                 {shelfItems}
             </ul>
             <div>
-                
+                <button type="button" onClick="">Purchase</button>
             </div>
         </div>
     );
