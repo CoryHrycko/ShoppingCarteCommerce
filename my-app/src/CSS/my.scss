@@ -111,6 +111,7 @@ $Csucess:hsl(104, 73%, 29%);
         }
     }
 }
+//--------------------------------------main side cart
 .mainCart {
     display: none;
     background: $Scolor;
@@ -156,7 +157,7 @@ $Csucess:hsl(104, 73%, 29%);
     height: 2px;
     background: $P2color;
 }
-
+//---------------------------side drawer main
 
 .sideDrawer {
     height:100%;
@@ -272,7 +273,7 @@ $Csucess:hsl(104, 73%, 29%);
         display: none;
     }
 }
-
+//--------------------------------------more nav bar
 .toolBar {
     position: fixed;
     top:0;
@@ -323,7 +324,7 @@ $Csucess:hsl(104, 73%, 29%);
 .toolBarNavItems a:active {
     color: $Cdanger;
 }
-
+//----------------------------------adapting previous code to fit.
 @media (max-width: 4000px){
     .toolBarNavItems{
         display: none;
@@ -355,7 +356,7 @@ $Csucess:hsl(104, 73%, 29%);
         margin-left:0;
     }
 }
-
+//-----------------------------------------blackness once things are open.
 .backdrop{
     position:fixed;
     width:100%;
